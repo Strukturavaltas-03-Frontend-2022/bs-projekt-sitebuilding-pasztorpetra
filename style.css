@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/dvr3ybj.css");
 
 body {
   padding: 0;
@@ -5,8 +6,13 @@ body {
   overflow-x: hidden;
 }
 
-.container_first {
-  height: 100vh;
+.navbar {
+  background-image: url(./img/bg-pattern.png), 
+  linear-gradient(to right, rgb(218, 37, 50), rgb(125, 66, 149));
+}
+
+.container_opening {
+  height: 91vh;
   width: 100vw;
   background-image: url(./img/bg-pattern.png), 
   linear-gradient(to right, rgb(218, 37, 50), rgb(125, 66, 149));
@@ -21,7 +27,7 @@ body {
   background-color: rgb(253, 199, 64);
 }
 
-.container-sixth {
+.container-footer {
   background-color: rgb(34, 34, 34);
   font-size: xx-small;
 }
