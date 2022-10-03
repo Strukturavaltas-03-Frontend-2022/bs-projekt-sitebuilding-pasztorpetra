@@ -14,10 +14,30 @@ body {
 
 .jumbotron-yellow {
   height: 400px;
-  background-color: #f4c245;
+  background-color: rgb(253, 199, 64);
 }
 
 .jumbotron-yellow2 {
-  background-color: #f4c245;
+  background-color: rgb(253, 199, 64);
 }
 
+.container-sixth {
+  background-color: rgb(34, 34, 34);
+  font-size: xx-small;
+}
+
+.nav-link {
+  padding: 5px;
+}
+
+.twitter {
+  color: rgb(29, 161, 242)
+}
+
+.facebook {
+  color: rgb(59, 89, 152);
+}
+
+.google {
+  color: rgb(221, 75, 57)
+}
