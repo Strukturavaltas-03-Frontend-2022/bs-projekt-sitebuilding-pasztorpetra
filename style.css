@@ -1,4 +1,10 @@
-@import url("https://use.typekit.net/dvr3ybj.css");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+html::-webkit-scrollbar {
+  display: none;
+}
 
 body {
   padding: 0;
@@ -9,6 +15,31 @@ body {
 .navbar {
   background-image: url(./img/bg-pattern.png), 
   linear-gradient(to right, rgb(218, 37, 50), rgb(125, 66, 149));
+  font-size: small;
+}
+
+.navbar .navbar-brand {
+  color: rgb(253, 199, 64);
+}
+
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+.font1
+{
+  font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.nav-link,
+.font2 
+{
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.btn:hover {
+  border: #fdcc52;
+  background-image: #fdcc52;
 }
 
 .container_opening {
@@ -25,6 +56,10 @@ body {
 
 .jumbotron-yellow2 {
   background-color: rgb(253, 199, 64);
+}
+
+#heart {
+  color: rgb(221, 75, 57);
 }
 
 .container-footer {
@@ -45,5 +80,6 @@ body {
 }
 
 .google {
-  color: rgb(221, 75, 57)
+  color: rgb(221, 75, 57);
 }
+
